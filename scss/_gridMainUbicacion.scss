@@ -1,0 +1,12 @@
+.gridMainUbicacion{
+    display: grid;
+    grid-template-areas: 
+    "titulo-ubicacion titulo-ubicacion titulo-ubicacion"
+    "mapa-ubicacion mapa-ubicacion mapa-ubicacion"
+    "boton-ubicación boton-ubicación boton-ubicación";
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: auto auto auto auto;
+}
+.titulo-ubicacion{grid-area: titulo-ubicacion; padding-top: 30px; padding-bottom: 30px; text-align: center;}
+.mapa-ubicacion{grid-area: mapa-ubicacion; text-align: center; padding-top: 10px; padding-bottom: 10px;}
+.boton-ubicación{grid-area: boton-ubicación; text-align: center; padding-top: 10px; padding-bottom: 30px;}

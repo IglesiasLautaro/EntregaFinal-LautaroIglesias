@@ -1,0 +1,18 @@
+.gridMainContacto{
+    display: grid;
+    grid-template-areas:
+    "titulo-contacto titulo-contacto titulo-contacto"
+    "parrafo-contacto parrafo-contacto parrafo-contacto"
+    "imagen2 imagen2 imagen2"
+    "linea-negra linea-negra linea-negra"
+    "formulario formulario formulario";
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: auto auto auto auto;
+    align-items: center;
+    overflow: hidden;
+}
+.titulo-contacto{grid-area: titulo-contacto; text-align: center; padding-top: 20px; padding-bottom: 20px;}
+.parrafo-contacto{grid-area: parrafo-contacto; text-align: center; padding: 20px 100px 20px 100px;}
+.formulario{grid-area: formulario; padding: 30px 50px 30px 50px;}
+.linea-negra{grid-area: linea-negra; border: 1px solid;}
+.imagen2{grid-area: imagen2; text-align: center;}
