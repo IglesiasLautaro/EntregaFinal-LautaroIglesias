@@ -1,0 +1,14 @@
+.gridMainProducto{
+    display: grid;
+    grid-template-areas: 
+     "carta1 carta2 carta3"
+     "carta4 carta5 carta6";
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: auto auto auto auto;
+}
+.carta1{grid-area: carta1;}
+.carta2{grid-area: carta2;}
+.carta3{grid-area: carta3;}
+.carta4{grid-area: carta4;}
+.carta5{grid-area: carta5;}
+.carta6{grid-area: carta6;}
